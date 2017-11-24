@@ -12,7 +12,7 @@ public class FibonaciRunner {
 		Scanner in = new Scanner(System.in);
 		int position = in.nextInt();
 		
-		int fibonaciAtPosition = FibonaciCalculator.calculateFinonaciFromPosition(position);
+		int fibonaciAtPosition = FibonaciCalculator.calculateFibonaciByPosition(position);
 		System.out.println("The fibonaci at "+position+" position is :"+fibonaciAtPosition);
 
 	}
